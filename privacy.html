@@ -30,9 +30,7 @@ The BFH Moodle Faster Login Extension does not store any personal data such as u
 The extension relies on Chrome's Password Manager for storing and retrieving login credentials. Chrome securely stores the user’s credentials locally on their device and ensures they are encrypted. The extension does not have access to the actual credentials; it simply fills in the forms based on the autofill data stored in Chrome.
 
 6. Permissions and Access
-The extension requests the activeTab and host_permissions permissions in order to interact with specific websites:
-
-activeTab: This permission allows the extension to interact with the currently active webpage, but only when the user has triggered the extension (e.g., by clicking the extension icon).
+The extension requests host_permissions in order to interact with specific websites:
 
 host_permissions: This permission enables the extension to access and fill in login forms on the specific websites, moodle.bfh.ch and login.eduid.ch, ensuring that the extension only works on these intended sites.
 
